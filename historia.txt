@@ -1,1 +1,3 @@
 este es un archivo de prueba para git 
+
+con la idea de poder probar todo su funcionamiento
