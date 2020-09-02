@@ -1,5 +1,6 @@
-este es un archivo de prueba para git 
+esta es la historia de nico
 
-con la idea de poder probar todo su funcionamiento
+el tiene 25 años 
 
-muchoo textoooooo
+nico se esta dando todo de si para lograr ser un desarrollador digno
+
