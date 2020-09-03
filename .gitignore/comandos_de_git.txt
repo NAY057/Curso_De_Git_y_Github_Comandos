@@ -44,3 +44,7 @@ $ git log archivo.extencion //muestra la historia del archivo
 $ git commit -am “Mensaje” // hace git add .  y git commit “Mensaje” al mismo tiempo, pero solo se debe hacer con los archivos agregados previamente
 
 $ git checkout 'nombre de la rama' // MUCHO CUIDADOO ANTES DE CAMBIAR DE RAMA SE DEBE DE HACER UN COMMIT DE LO CONTRARIO SE PERDERA TODO LO QUE SE HAYA REALIZADO
+
+$ git reset -------------- borrar commits
+$ git branch -d --------- borrar ramas
+$ git rm ------------------ borrar archivos
