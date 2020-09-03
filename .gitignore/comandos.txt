@@ -39,3 +39,5 @@ $ git log archivo.extencion //muestra la historia del archivo
     git config --global user.email: cambia de manera global el email del usuario, seguidamente ponemos entre comillas nuestro nombre.
 
     git log: se usa para ver la historia de nuestros archivos, los commits, el usuario que lo cambió, cuando se realizaron los cambios etc. seguidamente ponemos el nombre de nuestro archivo.
+
+    git commit -am “Mensaje”: es lo mismo que git add .  y luego git commit '“Mensaje”, solo que este une los dos comandos, pero solo funciona con archivos a los que previamente se les dio git add .
