@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 esta es la historia de nico
 
 el tiene 25 años 
 
 nico se esta dando todo de si para lograr ser un desarrollador digno
 
+=======
+este es un archivo de pueva paar git
+
+mañana nos enfocaremos en su vida laboral
+>>>>>>> cabecera
