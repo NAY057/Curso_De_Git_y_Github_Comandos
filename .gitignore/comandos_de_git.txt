@@ -73,3 +73,15 @@ $git remote add origin 'aqui va la direccion del repositorio'
 $git remote -v
 $git pull origin master --allow-unrelated-histories
 $git push origin master
+
+
+__________ASI SE CREAN LLAVES SSH____________________________
+Generar una nueva llave SSH: (Cualquier sistema operativo)
+
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+Comprobar proceso y agregarlo (Windows)
+
+    eval $(ssh-agent - s)
+    ssh-add ~/.ssh/id_rsa
+______________________________________________
