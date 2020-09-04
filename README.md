@@ -1,2 +1,2 @@
-# curso_de_git_y_github
+#Git_y_GitHub_Comandos
 Archivos creados en el curso profecional de git y github
