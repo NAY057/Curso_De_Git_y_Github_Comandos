@@ -62,3 +62,5 @@ $git pull origin master --allow-unrelated-histories (Fuerza la union de las dife
 $git pull origin master (Descarga cambios)
 
 $git push (origin) (master) (Sube Cambios)
+
+$git config -l // es una forma rapida de ver la lista de configuracion de git
