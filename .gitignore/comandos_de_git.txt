@@ -85,3 +85,20 @@ Comprobar proceso y agregarlo (Windows)
     eval $(ssh-agent -s)
     ssh-add ~/.ssh/id_rsa
 ______________________________________________
+
+
+___________COMANDOS PARA CAMBIAR LA RUTA ORIGIN___________________________________
+
+SE DEBE DE ESTAR UBICADO EN LA CARPETA DEL REPO QUE QUEREMOS ENLAZAR
+
+Primero se verifica el la ruta de origin con:
+$git remote -v
+
+Se configura la nueva ruta de origin con la clave SSH:
+$git remote set-url origin git@github.com:NAY057/Curso_De_Git_y_Github_Comandos.git
+
+Se compruevan los cambios nuevamente con:
+$git remote -v
+
+Se hace un pull para traer la ultima version que hay en el servidor
+$git pull origin master
