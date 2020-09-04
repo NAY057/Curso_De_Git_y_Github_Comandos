@@ -102,3 +102,12 @@ $git remote -v
 
 Se hace un pull para traer la ultima version que hay en el servidor
 $git pull origin master
+
+Se hace un commit con los ultimos cambios antes de hacer el push
+$git commit -am '“Mensaje”
+
+Luego se puede hacer un pull para actualizar nuevamente a la ultima version del servidor
+$git pull origin master
+
+Por ultimo se hace el push para enviar todo por ssh
+$git push origin master
