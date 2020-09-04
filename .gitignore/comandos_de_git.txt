@@ -48,3 +48,17 @@ $ git checkout 'nombre de la rama' // MUCHO CUIDADOO ANTES DE CAMBIAR DE RAMA SE
 $ git reset -------------- borrar commits
 $ git branch -d --------- borrar ramas
 $ git rm ------------------ borrar archivos
+
+$git merge (branchName)
+**Para uso del merge lo mejor es estar en la rama master o en la que se quiere dejar el <Head>**
+
+************Traer un repositorio externo************
+$git remote add origin (url)
+$git remote (muestra el origen)
+$git remote -v(es verval)
+
+$git pull origin master --allow-unrelated-histories (Fuerza la union de las diferentes historias)
+
+$git pull origin master (Descarga cambios)
+
+$git push (origin) (master) (Sube Cambios)
