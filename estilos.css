@@ -41,3 +41,10 @@ body{
 #post{
 
 }
+
+#footer{
+    text-align: center;
+    background: black;
+    color: tomato;
+    align-content: center;
+}
