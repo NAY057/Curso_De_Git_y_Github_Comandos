@@ -147,3 +147,11 @@ $git checkout -b nombre-de-la-rama(para borrar)
 Publicar una rama local al repositorio remoto: 
 $git push origin nombre-de-la-rama.
 ______________________________________________
+
+
+
+
+_______________CONFIGURACION DEL ARBOLITO_______________________________
+
+alias arbolito='git log --all --graph --decorate --oneline'
+______________________________________________
