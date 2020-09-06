@@ -155,3 +155,23 @@ _______________CONFIGURACION DEL ARBOLITO_______________________________
 
 alias arbolito='git log --all --graph --decorate --oneline'
 ______________________________________________
+
+
+
+
+__________________COMANDOS PARA TRAER OTRO REPO DISTINTO AL ORIGIN____________________________
+
+Para traer cambios del repositorio original:
+.
+
+Crear una nueva fuente para traer esos cambios:
+
+$git remote -v
+$git remote add upstream [original_repository_url]
+$git remote -v
+$git pull upstream master
+
+Actualizar nuestro repositorio en Github
+
+$git push origin master
+
