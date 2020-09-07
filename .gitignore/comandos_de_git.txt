@@ -175,3 +175,17 @@ Actualizar nuestro repositorio en Github
 
 $git push origin master
 
+______________________________________________
+
+
+
+
+_________________COMO IGNORAR ARCHIVOS CON EL .GITIGNORE_____________________________
+
+SE DEBE DE CREAR UN ARCHIVO CON EL NOMBRE '.gitignore' EN DONDE SE ESCRIBE UN LISTADO 
+DE LOS ARCHIVOS A IGNORAR, EJEMPLO:
+
+el esterisco hace referencia a todos los archivos con la extencion .jpg
+    '*.jpg'
+
+______________________________________________

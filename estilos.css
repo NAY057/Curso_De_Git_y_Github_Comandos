@@ -38,8 +38,8 @@ body{
     font-size: 20px;
 }
 
-#post{
-
+#post img{
+    width: 100%;
 }
 
 #footer{
