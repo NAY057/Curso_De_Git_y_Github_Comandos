@@ -203,3 +203,11 @@ Lo interesante de Markdown es que funciona en muchas páginas,
 por ejemplo la edición en Wikipedia; es un lenguaje intermedio que no es HTML, 
 no es texto plano, es una manera de crear excelentes texto formateados.
 ______________________________________________
+
+
+
+___________________HOSTING DE GITHUB PAGES___________________________
+
+Se debe de crear un repo con el mismo nombre de usuario de esta manera
+'NAY057.github.io' para que asi se vea el dominio, IMPORTANTE PONER EL NOMBRE COMO 'index.html'
+______________________________________________ 
