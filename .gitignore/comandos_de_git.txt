@@ -211,3 +211,19 @@ ___________________HOSTING DE GITHUB PAGES___________________________
 Se debe de crear un repo con el mismo nombre de usuario de esta manera
 'NAY057.github.io' para que asi se vea el dominio, IMPORTANTE PONER EL NOMBRE COMO 'index.html'
 ______________________________________________ 
+
+
+___________________COMANDO REBASE___________________________
+
+El comando rebase es una mala práctica, nunca se debe usar,
+si se va a usar solo de debe hacer de manera local y nunca en un repo remoto
+la manera correcta de hacer es asi:
+
+SOLO DE DEBE HACER SI SE TIENEN LAS COSAS CLARAS YA QUE rebase reescribe la historia del repositorio, 
+cambia la historia de donde comenzó la rama y solo debe ser usado de manera local.
+
+PRIMERO SE HACE 'git rebase NOMBRE DE LA RAMA' a la rama donde se hicieron los cambios
+
+Y LUEGO SE HACE 'git rebase NOMBRE DE LA RAMA' a la RAMA MASTER O RAMA A LA QUE QUEREMOS APLICAR
+TODOS LOS CAMBIOS DE MANERA DEFINITIVA
+______________________________________________
