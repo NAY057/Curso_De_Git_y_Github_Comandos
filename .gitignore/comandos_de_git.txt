@@ -285,3 +285,29 @@ $git stash clear
 
 guardará en el stash los archivos que no estén en el staging.
 $git stash -u 
+
+______________________________________________
+
+
+
+___________________GIT CLEAN___________________________
+
+Para saber qué archivos vamos a borrar tecleamos (simula la iliminacion de los archivos)
+$git clean --dry-run
+
+cuado se este seguro de los que va a borrar se usa el siguiente comando
+
+Para borrar todos los archivos listados (que no son carpetas) tecleamos 
+$git clean -f
+
+______________________________________________
+
+
+__________________COMANDO CHERRY-PICK____________________________
+
+Existe un mundo alternativo en el cual vamos avanzando en una rama pero necesitamos en master uno de esos avances de la rama, para eso utilizamos el comando 
+$git cherry-pick IDCommit.
+
+cherry-pick es una mala práctica porque significa que estamos reconstruyendo la historia, usa cherry-pick con sabiduría. Si no sabes lo que estás haciendo ten mucho cuidado.
+
+______________________________________________
