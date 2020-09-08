@@ -232,3 +232,56 @@ ___________________COMANDO MERGE___________________________
 Para uso del merge lo mejor es estar en la rama master o en la que se quiere dejar el <Head>
 
 $git merge (branchName)
+
+______________________________________________
+
+
+
+____________________COMANDO STASH__________________________
+
+El comando git stash guarda el trabajo actual del Staging en una lista diseñada para ser temporal llamada Stash, para que pueda ser recuperado en el futuro.
+Para agregar los cambios al stash se utiliza el comando:
+git stash.
+
+$git stash
+
+Podemos poner un mensaje en el stash, para asi diferenciarlos en git stash list por si tenemos varios elementos en el stash. Ésto con:
+
+$git stash save "mensaje identificador del elemento del stashed"
+
+
+Para recuperar los últimos cambios desde el stash a tu staging area utiliza el comando:
+
+$git stash pop
+
+Para ver la lista de cambios guardados en Stash y así poder recuperarlos o hacer algo con ellos podemos utilizar el comando:
+
+$git stash list
+
+Para crear una rama y aplicar el stash mas reciente podemos utilizar el comando
+
+$git stash branch <nombre_de_la_rama>
+
+Si deseas crear una rama y aplicar un stash específico (obtenido desde git stash list) puedes utilizar el comando:
+
+Al utilizar estos comandos crearás una rama con el nombre <nombre_de_la_rama>, te pasarás a ella y tendrás el stash especificado en tu staging area.
+
+$git stash branch nombre_de_rama stash@{<num_stash>}
+
+Para eliminar los cambios más recientes dentro del stash (el elemento 0), podemos utilizar el comando:
+
+$git stash drop
+
+Pero si en cambio conoces el índice del stash que quieres borrar (mediante git stash list) puedes utilizar el comando:
+
+$git stash drop stash@{<num_stash>}
+
+Donde el <num_stash> es el índice del cambio guardado.
+
+Si en cambio deseas eliminar todos los elementos del stash, puedes utilizar:
+
+$git stash clear
+
+
+guardará en el stash los archivos que no estén en el staging.
+$git stash -u 
