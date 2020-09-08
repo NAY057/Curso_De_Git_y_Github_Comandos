@@ -49,8 +49,6 @@ $ git reset -------------- borrar commits
 $ git branch -d --------- borrar ramas
 $ git rm ------------------ borrar archivos
 
-$git merge (branchName)
-**Para uso del merge lo mejor es estar en la rama master o en la que se quiere dejar el <Head>**
 
 ************Traer un repositorio externo************
 $git remote add origin (url)
@@ -227,3 +225,10 @@ PRIMERO SE HACE 'git rebase NOMBRE DE LA RAMA' a la rama donde se hicieron los c
 Y LUEGO SE HACE 'git rebase NOMBRE DE LA RAMA' a la RAMA MASTER O RAMA A LA QUE QUEREMOS APLICAR
 TODOS LOS CAMBIOS DE MANERA DEFINITIVA
 ______________________________________________
+
+
+
+___________________COMANDO MERGE___________________________
+Para uso del merge lo mejor es estar en la rama master o en la que se quiere dejar el <Head>
+
+$git merge (branchName)
