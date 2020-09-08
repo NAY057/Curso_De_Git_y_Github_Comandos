@@ -322,10 +322,11 @@ $git commit --amend
 pero primero se deben de agregar los archivos que se quieran agregar al commit anterior asi:
 
 $git add (la ruta del archivo)
-______________________________________________
 
 Luego si se usa el comando
 
 $git commit --amend
 
 este unira los cambios con el ultimo commit
+
+______________________________________________
