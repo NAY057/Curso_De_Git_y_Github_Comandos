@@ -342,4 +342,7 @@ $git reset --hard HashDelHEAD (ESTE ES EL EFECTIVO) resetea absolutamente todo i
 
 git reset es una mala práctica, no deberías usarlo en ningún momento; debe ser nuestro último recurso.
 
+con git reflog se puede ver el log de una manera completa(se ven todos los cambios hechos sin excepcion)
+$git reflog
+
 ______________________________________________
